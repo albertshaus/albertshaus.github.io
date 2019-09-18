@@ -1,0 +1,86 @@
+body {
+    color: #555;
+    margin: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+#kopf a:hover {
+    color: black;
+}
+#kopf a {
+    color: white;
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    
+}
+#kopf {
+    background-color: aqua;
+    height : 150px;
+    line-height: 150px;
+    
+}
+#KopfTitel {
+    display: block;
+    float: left;
+    margin-left: 50px;
+    
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#links {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+#links li {
+    display: inline;
+    padding-left: 50px;
+    margin-right: 50px;
+    
+}
+#seitenboden li {
+    display: block;
+    padding-top: 10px;
+}
+#seitenboden {
+    background-color: black;
+    padding: 50px 0;
+}
+#seitenboden a:hover {
+    color: blueviolet;
+}
+#seitenboden a {
+    color: white;
+    text-decoration: none;
+}
+#seitenboden p {
+    color: white;
+    padding-top: 20px;
+    
+}
+#seitenboden h3 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    
+}
+#inhalt {
+    background-color: white;
+    height: auto;
+}
+.colum {
+    display: inline-block;
+    min-width: 400px;
+    vertical-align: top;
+    margin-left: 30px;
+}
+#eingabeFelder {
+    margin-bottom: 20px;
+}
